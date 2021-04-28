@@ -18,7 +18,7 @@
         <div class="container logo-navContanier">
             <nav class="navigation">
                 <ul>
-                
+
                 </ul>
             </nav>
         </div>
@@ -27,9 +27,9 @@
 
         <Section class="fomr-register">
 
-            <div class= "tituloRegistro">
+            <div class="tituloRegistro">
 
-            <h4>Registra tu mascota</h4>
+                <h4>Registra tu mascota</h4>
 
             </div>
 
@@ -37,11 +37,13 @@
             <form id="action" action="" class="formularioRegistrar">
                 <div id="form">
                     <h4>Registro</h4>
-                    
+
                     <input type="text" name="nombreUuario" class="control" id="Id" placeholder="Ingrese nombreUuario">
-            
-                    <button type="button" onclick="check()">submit</button>
-             
+
+                    <input type="file" id="real-file" hidden="hidden" />
+                    <button type="button" id="botonSubmit">Submit</button>
+                    <span id="etiquetaBoton">No file chosen, yet.</span>
+
                     <p class="warning" id="warning"></p>
                 </div>
             </form>
