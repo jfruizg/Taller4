@@ -152,7 +152,7 @@ header {
     width: 100%;
 }
 
-#custom-button {
+#botonSubmit {
     padding: 10px;
     color: white;
     background-color: #009578;
@@ -162,11 +162,11 @@ header {
     margin-left: 40px;
   }
   
-  #custom-button:hover {
+  #botonSubmit:hover {
     background-color: #00b28f;
   }
   
-  #custom-text {
+  #etiquetaBoton {
     margin-left: 10px;
     font-family: sans-serif;
     color: #aaa;
